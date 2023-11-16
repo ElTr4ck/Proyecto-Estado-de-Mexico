@@ -1,0 +1,38 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: poppins;
+	background: #e6e7ee;
+}
+.team-area{
+	padding: 0px 0;
+}
+.card-img{
+	width: 100%;
+}
+.card, .button{
+	box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
+	background: #e6e7ee;
+	border: none;
+	outline: none;
+}
+.socials{
+	margin: 15px 0;
+}
+.socials i{
+	padding: 0 10px;
+	font-size: 20px;
+}
+.text{
+	padding: 0 5%;
+}
+.button{
+	margin-bottom: 20px;
+	margin-top: 15px;
+	border-radius: 5px;
+	padding: 10px 15px;
+}
+h1{
+	padding-bottom: 10px;
+}

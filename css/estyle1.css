@@ -1,0 +1,151 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+body{
+	font-family: poppins;
+	margin: 0 auto;/*margenes cero / al centro*/
+	background-attachment: fixed;
+}
+.menu{
+	width: 1170px;
+	margin: auto;
+}
+.header-area{
+	background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../img/1.jpg);
+	height:  100vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+}
+.barra{
+	float: right; 
+	list-style: none;
+	margin-top: -100px;
+}
+.barra li{
+	display: inline-block;
+}
+.barra li a{
+	color: #fff; 
+	text-decoration: none;
+	padding: 5px 20px;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+.barra li a:hover{
+	background: #fff;
+	color: #000;
+}
+.logo{
+	float: left;
+}
+.logo img{
+	width: 25%;
+	padding: 15px 0;
+}
+.banner-text{
+	position: absolute;
+	width: 680px;
+	height: 300px;
+	margin: 12% 30%;
+	text-align: center;
+}
+.banner-text h1{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 60px;
+}
+.banner-text h1 span{
+	color: #00ffff;
+}
+.banner-text p{
+	color: #fff;
+	font-size: 18px;
+	line-height: 1.9;
+}
+.banner-text a{
+	border: 1px solid #fff;
+	color: #fff;
+	display: inline-block;
+	margin-top: 20px;
+	font-size: 14px;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 10px 25px;
+}
+.banner-text a:hover{
+	background: #fff;
+	color: #000;
+}
+
+.informacion{
+	width:90%;
+	margin: 0px auto;
+	line-height: 20px;
+	margin-top:6px;/*margen superior*/
+}
+
+h1{
+	padding: 80px;	text-align: center; color: #696969; font-size: 30px; 
+	margin-bottom: -55px;
+}
+
+/*pie*/
+#pie{
+	width: 100%; height: 50px;	background-color: #454545;
+	color: #FFFFFF; line-height: 50px;	margin:0 auto; font-family: arial;
+	text-align: center;/*alineación de texto/centro*/
+	padding: 0px 12px 0 12px; box-sizing:border-box; 
+	position: fixed; bottom: 0;				
+}
+
+.ir-arriba{
+	display: none;
+	padding: 20px; background-color: #FF69B4;
+	font-size: 20px; color: #fff; cursor: pointer;
+	position: fixed; bottom: 65px; right: 25px;
+}
+
+
+
+/*responsive*/
+
+@media (max-width: 800px){
+	.menu{
+		width: 100%;
+	}
+	.logo{
+
+		float: none;
+		width: 100%;
+		text-align: center;
+		margin: auto;
+	}
+	.barra{
+		float: none;
+		margin-top: -10px;
+		text-align: center;
+	}
+	.barra li a{
+		padding: 5px;
+		font-size: 12px; 
+	}
+	.banner-text{
+		width: 100%;
+		height: auto;
+		margin: 20% 0;
+	}
+	.banner-text h1{
+		font-size: 30px;
+	}
+	.banner-text p{
+		font-size: 16px;
+		width: 90%;
+		margin: auto;
+		line-height: 1.5;
+	}
+
+}
