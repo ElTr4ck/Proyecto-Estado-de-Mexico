@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Index.HTML</title>
+	<link rel="stylesheet" href="css/estyle1.css">
+	<link rel="stylesheet" href="css/inicio.css">
+	<link rel="stylesheet" href="css/nosotros.css">
+	<link rel="stylesheet" href="css/servicios.css">
+	<link rel="stylesheet" href="css/blog.css">
+	<link rel="stylesheet" href="css/sitioweb.css">
+	<link rel="stylesheet" type="text/css" href="css/formulario.css">
+
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
+	
+	
+	
+	<link rel="stylesheet" href="fonts.css">
+	<script src="js/jquery.min.js" 
+		type="text/javascript" charset="utf-8"></script>
+	<script src="js/jquery-latest.js"></script>
+	<script src="js/arriba.js"></script>
+
+	<script>
+		$(function(){
+
+	 $('a[href*=#]').click(function() {
+
+	 if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+	 	 && location.hostname == this.hostname) {
+	 		 var $target = $(this.hash);
+	 		 $target = $target.length && $target || $('[name=' + this.hash.slice(1) +']');
+	 		 if ($target.length) {
+	 		 	 var targetOffset = $target.offset().top;
+	 		 	 $('html,body').animate({scrollTop: targetOffset}, 1000);
+	 		 	 return false;
+	 		}
+	 	}
+	});
+});
+
+	</script>
+
+
+</head>
+<body>
+	<div class="header-area">
+		<div class="menu">
+			<div class="logo">
+				<img src="img/logo1.png" alt="">
+			</div>
+			<ul class="barra">
+				<li><a href="#inicio">Inicio</a></li>
+				<li><a href="#sobrenosotros">Sobre Nosotros</a></li>
+				<li><a href="#servicios">Servicios</a></li>
+				<li><a href="#blog">Blog</a></li>
+				<li><a href="#sitio">Sitios Web</a></li>
+				<li><a href="#contacto">Contacto</a></li>
+				<li><a href="login.php">login</a></li>
+			</ul>
+		</div>
+		<div class="banner-text">
+			<h1>HELA <span>DITOS</span></h1>
+			<p>Con una visión del helado artesanal como postre completo y de la repostería como cocina de muchas experiencias, en "Heladitos" hacemos helados que resalten la calidad y cualidades de los ingredientes naturales: el sabor, el color y la consistencia de las frutas, las semillas, las vainas, los lácteos. Por eso son importantes para nosotros el origen y la temporalidad de los ingredientes que usamos.</p>
+			<a href="#contacto">Contáctanos</a>
+		</div>
+	</div>
+	
+	<div class="contenedor">
+
+
+	<section class="informacion" id="inicio">
+	<h1>Nuestros Sabores</h1><br>
+
+	<div class="carousel">
+		<a href="#one" class="carousel-item"><img src="img/fresa1.jpg" alt=""></a>
+		<a href="#two" class="carousel-item"><img src="img/chocolate2.jpg" alt=""></a>
+		<a href="#three" class="carousel-item"><img src="img/menta3.jpg" alt=""></a>
+		<a href="#four" class="carousel-item"><img src="img/oreo4.jpg" alt=""></a>
+		<a href="#five" class="carousel-item"><img src="img/mora5.jpg" alt=""></a>
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
+		
+	</script>
+	<script>
+		 
+		 $(document).ready(function(){
+		 	$('.carousel').carousel({
+		 		indicators:true
+		 	});
+		 	setInterval(function(){
+		 		$('.carousel').carousel('next');
+		 	}, 2000);
+		 });
+
+	</script>
+	</section>
+
+
+	<span class="ir-arriba icon-arrow-up"></span>
+
+	<section class="informacion" id="sobrenosotros">
+		
+
+		<div class="about">
+		<div class="container">
+			<div class="row">
+				<div class="header-text text-center">
+					<h2>Nosotros</h2><br>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-5">
+					<div class="area"></div>	
+				</div>
+				<div class="col-md-7">
+					<div class="img-text">
+						<h2>Anette Aguilar </h2>
+						<h4>Gerenta del Local</h4>
+						<p>Vamos de un lado a otro buscando, viajamos y experimentamos para encontrar sabores. La Heladería está formada por un grupo de jóvenes emprendedores con la idea de hacer los mejores helados de Peruanos y llevar esta experiencia gastronómica a los parques, plazas, bazares mesas de los mejores restaurantes y también a las las casas de la gente que aprecia lo bien hecho, y que, como nosotros, va buscando sabores y experiencias.</p>
+						<a href="#contacto">Contáctanos</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	</section>
+
+	<section class="informacion" id="servicios">
+
+		<div class="container">
+		<h1>Nuestros Servicios</h1><br>
+		<div class="row">
+			<div class="col-md-4 col-sm-6">
+				<div class="single-team">
+					<div class="team-img one">
+						<div class="img-area"></div>
+					</div>
+					<div class="team-text">
+						<h2>Toppings</h2>
+						<h4>Variedad</h4>
+						<p>Se hace de productos lácteos tales como leche o crema, a menudo en combinación con frutas u otros ingredientes y sabores.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<div class="single-team">
+					<div class="team-img two">
+						<div class="img-area"></div>
+					</div>
+					<div class="team-text">
+						<h2>Sorpresas</h2>
+						<h4>Artesanales</h4>
+						<p>	Para variar los gustos tambien hay lugar</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<div class="single-team">
+					<div class="team-img three">
+						<div class="img-area"></div>
+					</div>
+					<div class="team-text">
+						<h2>Presentaciones</h2>
+						<h4>Cono/Vaso</h4>
+						<p>No hay pretextos para elegir en que llevar tu helado !!! </p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</section>
+
+	<section class="informacion" id="blog">
+	<h1>Mira Nuestro Blog</h1><br>
+
+		<div class="team-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="card text-center">
+						<img src="img/2.jpg" alt="" class="card-img">
+						<div class="card-body">
+							<h4 class="card-title">Anette y Karla</h4>
+							<p class="socials">
+								<i class="fa fa-pinterest"></i>
+								<i class="fa fa-dribbble"></i>
+								<i class="fa fa-youtube"></i>
+								<i class="fa fa-tumblr"></i>
+							</p>
+							<p class="text">
+								Nos interesa el origen de los ingredientes que usamos: la vainilla de Papantla, el cacao de Tabasco y los mangos de Veracruz.
+							</p>
+							<button class="button">Comentario</button>
+						</div>
+					</div>
+				</div>
+					<div class="col-md-4">
+					<div class="card text-center">
+						<img src="img/3.jpg" alt="" class="card-img">
+						<div class="card-body">
+							<h4 class="card-title">Jese Torres</h4>
+							<p class="socials">
+								<i class="fa fa-pinterest"></i>
+								<i class="fa fa-dribbble"></i>
+								<i class="fa fa-youtube"></i>
+								<i class="fa fa-tumblr"></i>
+							</p>
+							<p class="text">
+								Nuestros helados buscan ser un deleite a la vista, al olfato, al tacto y al gusto. Pero también es importante la historia que hay detrás.
+							</p>
+							<button class="button">Comentario</button>
+						</div>
+					</div>
+				</div>
+					<div class="col-md-4">
+					<div class="card text-center">
+						<img src="img/1.jpg" alt="" class="card-img">
+						<div class="card-body">
+							<h4 class="card-title">Mauricio Alejandro</h4>
+							<p class="socials">
+								<i class="fa fa-pinterest"></i>
+								<i class="fa fa-dribbble"></i>
+								<i class="fa fa-youtube"></i>
+								<i class="fa fa-tumblr"></i>
+							</p>
+							<p class="text">
+								En "Heladitos" Heladería nos proveemos con productores con los que compartimos una visión de la calidad. 
+							</p>
+							<button class="button">Comentario</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	</section>
+
+	<section class="informacion" id="sitio">
+
+		<div class="box">
+		<div class="single-box">
+			<i class="fa fa-facebook"></i>
+		</div>
+		<div class="single-box">
+			<i class="fa fa-twitter"></i>
+		</div>
+		<div class="single-box">
+			<i class="fa fa-youtube"></i>
+		</div>
+		<div class="single-box">
+			<i class="fa fa-pinterest"></i>
+		</div>
+
+	</div>
+
+	</section>
+
+	<section class="informacion" id="contacto">
+		<div class="contact-in">
+		<div class="contact-map">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3899.4008313331396!2d-76.94085974995006!3d-12.22111659130892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105bbdca2f3ee8b%3A0x2b7fffb4f202a9b0!2sAv.%203%20de%20Octubre%2C%20Villa%20EL%20Salvador!5e0!3m2!1ses-419!2spe!4v1607935532346!5m2!1ses-419!2spe" width="100%" height="auto" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+		</div>
+		<div class="contact-form">
+			<h1>Contáctanos</h1>
+			<form>
+				<input type="text" placeholder="Nombre" class="contact-form-txt"/>
+				<input type="text" placeholder="Correo" class="contact-form-txt"/>
+				<textarea placeholder="Mensaje" class="contact-form-textarea"></textarea>
+				<input type="submit" name="Submit"/>
+			</form>
+		</div>
+	</div>
+	</section>
+
+	<div>
+		<h1></h1>
+	</div>
+	
+
+	<div id="pie">
+				Equipo 8 HELADERIA 
+			</div>
+
+</body>
+</html>
