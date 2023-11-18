@@ -1,2 +1,2 @@
-# ProyectoDanceDynasty
-Proyecto final de la materia de Tecnologías Web del semestre 2023-1
+# Proyecto Hela-Ditos
+Proyecto express resultado de una compra, integra una pagina principal y logica de BD

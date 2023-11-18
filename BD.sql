@@ -13,16 +13,14 @@ Alter table Admin
 Insert into Admin values ('U1','Mauricio','Mau123+');
 
 Create table helados(
+    idHelado int AUTO_INCREMENT primary key,
     sabor varchar(20) not null,
-    imagen varchar(20) not null,
-    idHelado varchar(10) not null
+    descripcion varchar(255) not null,
+    imagen varchar(20) not null
 );
 
-Alter table helados
-    add constraint PK2 primary key(idHelado);
-
-Insert into helados values ('Fresa','fresa1.jpg','H1');
-Insert into helados values ('Chocolate','chocolate2.jpg','H2');
-Insert into helados values ('Menta','menta3.jpg','H3');
-Insert into helados values ('Oreo','oreo4.jpg','H4');
-Insert into helados values ('Mora','mora5.jpg','H5');
+Insert into helados (sabor, descripcion, imagen) values ('Fresa','Descripcion de prueba del helado de fresa','fresa1.jpg');
+Insert into helados (sabor, descripcion, imagen) values ('Chocolate','Descripcion de prueba del helado de chocolate','chocolate2.jpg');
+Insert into helados (sabor, descripcion, imagen) values ('Menta','Descripcion de prueba del helado de menta','menta3.jpg');
+Insert into helados (sabor, descripcion, imagen) values ('Oreo','Descripcion de prueba del helado de oreo','oreo4.jpg');
+Insert into helados (sabor, descripcion, imagen) values ('Mora','Descripcion de prueba del helado de mora','mora5.jpg');

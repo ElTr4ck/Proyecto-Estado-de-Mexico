@@ -11,7 +11,7 @@ if($usuario==null|| $usuario=''){
   <b class="error-acceso">Usted no tiene autorización<b>';
 }
 
-$conexion = mysqli_connect('localhost', 'root', '', 'pdancedinasty');
+$conexion = mysqli_connect('localhost', 'root', '', 'heladeria');
     if (!$conexion) {
         die("Error al conectar con la base de datos: " . mysqli_connect_error());
     }

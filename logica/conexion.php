@@ -1,5 +1,5 @@
 <?php
-$conexion = mysqli_connect('localhost', 'root','', 'pdancedinasty');
+$conexion = mysqli_connect('localhost', 'root','', 'heladeria');
 
 if($conexion){
 
