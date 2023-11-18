@@ -38,6 +38,12 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+
+   <!-- Agrega la referencia al archivo de estilo de SweetAlert -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10">
+
+   <!-- Agrega la referencia al archivo de script de SweetAlert -->
+   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 </head>
 
 <body>
@@ -479,7 +485,7 @@
         </div>
         <div class="row datosContratacion">
           <div class="col-md-6">
-            <form action="confirmation.php" method="POST" autocomplete="off" class="row justify-content-center" id="formContratacion">
+            <form action="confirmation.php" method="POST" autocomplete="off" class="row justify-content-center" id="formContratacion" novalidate >
               <fieldset class="DatoContratacion">
                   <legend>Contacto: </legend>
                   <label for="Nombre">Nombre: </label>
@@ -546,11 +552,12 @@
 
 
   <!-- Enlace al contactanos -->
-  <script src="assets/js/contactanos.js"></script>
+  <script src="assets/js/validation.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
+</body>
 </body>
 
 </html>
