@@ -49,7 +49,8 @@ if (!$conexion) {
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/crudStyle.css">
-
+ <!-- SweetAlert2 CSS -->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
 </head>
 
 <body>
@@ -115,7 +116,7 @@ if (!$conexion) {
               <td><?php echo $show['sabor'] ?></td>
               <td><?php echo $show['descripcion'] ?></td>
               <td><?php echo $show['imagen'] ?></td>
-              <td><a href="eliminar.php?sabor=<?php echo $show['sabor']; ?>"> X </a></td>
+              <td><a href="#" onclick="confirmarEliminacion('<?php echo $show['sabor']; ?>')"> X </a></td>
             </tr>
           <?php
           }
@@ -162,6 +163,10 @@ if (!$conexion) {
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+<!-- SweetAlert2 JS -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
+<!-- Tu archivo JavaScript para manejar la eliminación -->
+<script src="assets/js/eliminar_confirm.js"></script>
 </body>
 </html>
