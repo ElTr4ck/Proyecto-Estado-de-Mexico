@@ -14,9 +14,8 @@ document.addEventListener('DOMContentLoaded', function () {
   const showValidationAlert = () => {
     Swal.fire({
       icon: 'error',
-      title: 'Oops...',
+      title: 'Lo sentimos...',
       text: 'Por favor, completa todos los campos correctamente',
-      
     });
   };
 });
