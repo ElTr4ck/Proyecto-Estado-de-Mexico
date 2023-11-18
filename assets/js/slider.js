@@ -13,7 +13,8 @@ $(document).ready(function() {
           // Construir el HTML para las imágenes
           var html = '';
           images.forEach(function(image) {
-            html += '<div class="carousel-item"><img src="assets/img/carrusel/' + image + '"></div>';
+            html += '<div class="swiper-slide"><div class="swiper-txt"><h3>Arreglo Aqui</h3><p>Arreglo aqui</p></div><img src="assets/img/carrusel/' + image + '" alt=""></div> ';
+            //html += '<div class="carousel-item"><img src="assets/img/carrusel/' + image + '"></div>';
           });
 
           // Insertar HTML en #slider
@@ -21,6 +22,7 @@ $(document).ready(function() {
 
 
           // Inicializar el carrusel de Materialize con opciones personalizadas
+          /*
           $('.carousel').carousel({
             fullWidth: true, // Ajusta el ancho al tamaño de la pantalla
             indicators: true,
@@ -28,7 +30,7 @@ $(document).ready(function() {
             shift: 50, // Ajusta la cantidad de desplazamiento entre diapositivas
             numVisible: 5, // Ajusta el número de diapositivas visibles a la vez
             padding: 600, // Agrega un relleno adicional para centrar las imágenes
-          });
+          });*/
 
           // Inicia la función de cambio automático cada 5 segundos
           setInterval(function() {
