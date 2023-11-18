@@ -164,5 +164,3 @@ session_start();
 </body>
 
 </html>
-
-<!--Creo que aca va a ir el php o ni perra idea xd-->

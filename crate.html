@@ -5,22 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agregar</title>
 </head>
+<!-- crate.php -->
 <body>
-    <form action="create.php">
-        <fieldset>
-            <legend>Registrar Helado</legend>
-            <label for="sabor">Sabor Helado:</label>
-            <input type="text" id="sabor" name="sabor">
-            <label for="Desc" >Descripción</label>
-            <input type="text" id="Desc" name="Desc">
-            <label for="img">Imagen</label>
-            <input type="text" id="img" name="img">
-            <input type="submit" value="Enviar">
-        </fieldset>
-       
-
+    <form action="create.php" method="GET">
+      <fieldset>
+        <legend>Registrar Helado</legend>
+        <label for="sabor">Sabor Helado:</label>
+        <input type="text" id="sabor" name="sabor">
+        <label for="Desc">Descripción</label>
+        <input type="text" id="Desc" name="Desc">
+        <label for="img">Imagen</label>
+        <input type="text" id="img" name="img">
+        <input type="submit" value="Enviar">
+      </fieldset>
     </form>
-</body>
+  
+    <!-- Agrega la referencia al script de Sweet Alert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="assets/js/heladoconfirm.js"></script>
+  </body>
+  
 </html>
 
 
