@@ -167,6 +167,7 @@ if (!$conexion) {
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 <!-- Tu archivo JavaScript para manejar la eliminación -->
+
 <script src="assets/js/eliminar_confirm.js"></script>
 </body>
 </html>
