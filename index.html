@@ -1,299 +1,552 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="utf-8">
-	<title>Index.HTML</title>
-	<link rel="stylesheet" href="css/estyle1.css">
-	<link rel="stylesheet" href="css/inicio.css">
-	<link rel="stylesheet" href="css/nosotros.css">
-	<link rel="stylesheet" href="css/servicios.css">
-	<link rel="stylesheet" href="css/blog.css">
-	<link rel="stylesheet" href="css/sitioweb.css">
-	<link rel="stylesheet" type="text/css" href="css/formulario.css">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
+  <title>Hela-Ditos</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Favicons -->
+  <link href="assets/img/favicon.ico" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
-	
-	
-	
-	<link rel="stylesheet" href="fonts.css">
-	<script src="js/jquery.min.js" 
-		type="text/javascript" charset="utf-8"></script>
-	<script src="js/jquery-latest.js"></script>
-	<script src="js/arriba.js"></script>
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
 
-	<script>
-		$(function(){
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-	 $('a[href*=#]').click(function() {
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
 
-	 if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
-	 	 && location.hostname == this.hostname) {
-	 		 var $target = $(this.hash);
-	 		 $target = $target.length && $target || $('[name=' + this.hash.slice(1) +']');
-	 		 if ($target.length) {
-	 		 	 var targetOffset = $target.offset().top;
-	 		 	 $('html,body').animate({scrollTop: targetOffset}, 1000);
-	 		 	 return false;
-	 		}
-	 	}
-	});
-});
-
-	</script>
-
-
+  <!-- =======================================================
+  * Template Name: Selecao
+  * Updated: Mar 10 2023 with Bootstrap v5.2.3
+  * Template URL: https://bootstrapmade.com/selecao-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
+
 <body>
-	<div class="header-area">
-		<div class="menu">
-			<div class="logo">
-				<img src="img/logo1.png" alt="">
-			</div>
-			<ul class="barra">
-				<li><a href="#inicio">Inicio</a></li>
-				<li><a href="#sobrenosotros">Sobre Nosotros</a></li>
-				<li><a href="#servicios">Servicios</a></li>
-				<li><a href="#blog">Blog</a></li>
-				<li><a href="#sitio">Sitios Web</a></li>
-				<li><a href="#contacto">Contacto</a></li>
-				<li><a href="login.php">login</a></li>
-			</ul>
-		</div>
-		<div class="banner-text">
-			<h1>HELA <span>DITOS</span></h1>
-			<p>Con una visión del helado artesanal como postre completo y de la repostería como cocina de muchas experiencias, en "Heladitos" hacemos helados que resalten la calidad y cualidades de los ingredientes naturales: el sabor, el color y la consistencia de las frutas, las semillas, las vainas, los lácteos. Por eso son importantes para nosotros el origen y la temporalidad de los ingredientes que usamos.</p>
-			<a href="#contacto">Contáctanos</a>
-		</div>
-	</div>
-	
-	<div class="contenedor">
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center  header-transparent ">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <div class="logo">
+        <!--<h1><a href="index.html">Dance Dynasty</a></h1> -->
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <a href="index.html"><img src="assets/img/logo1.png" alt="" class="img-fluid"></a>
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Inicio</a></li>
+          <li><a class="nav-link scrollto" href="#about">Sobre Nosotros</a></li>
+          <li><a class="nav-link scrollto" href="#services">Helados</a></li>
+          <li><a class="nav-link scrollto " href="#portfolio">Portafolio</a></li>
+          <li><a class="nav-link scrollto" href="#testimonials">Blog</a></li>
+          <li><a class="nav-link scrollto" href="#comprobante">Contacto</a></li>
+          <li><a class="nav-link scrollto" href="adminLogin.php">Log-In</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-end align-items-center">
+    <div class="hero-background"></div>
+    <div id="heroCarousel" data-bs-interval="5000" class="container carousel carousel-fade" data-bs-ride="carousel">
+
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <div class="carousel-container">
+          <h2 class="animate__animated animate__fadeInDown">HELA <span>DITOS</span></h2>
+          <p class="animate__animated fanimate__adeInUp">Con una visión del helado artesanal como postre completo y de
+            la repostería como cocina de muchas
+            experiencias, en "Heladitos" hacemos helados que resalten la calidad y cualidades de los ingredientes
+            naturales: el sabor, el color y la consistencia de las frutas, las semillas, las vainas, los lácteos.
+            Por eso son importantes para nosotros el origen y la temporalidad de los ingredientes que usamos.</p>
+          <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Contáctanos</a>
+        </div>
+      </div>
+
+    </div>
+
+    <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+      viewBox="0 24 150 28 " preserveAspectRatio="none">
+      <defs>
+        <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+      </defs>
+      <g class="wave1">
+        <use xlink:href="#wave-path" x="50" y="3" fill="#04ADBF">
+      </g>
+      <g class="wave2">
+        <use xlink:href="#wave-path" x="50" y="0" fill="#04BFAD">
+      </g>
+      <g class="wave3">
+        <use xlink:href="#wave-path" x="50" y="9" fill="#fff">
+      </g>
+    </svg>
+
+  </section> <!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-out">
+          <h2>Sobre Nosotros</h2>
+          <p>¿Quienes somos?</p>
+        </div>
+
+        <div class="row content" data-aos="fade-up">
+          <div class="col-lg-6">
+            <p>
+              En Hela - Ditos, fusionamos la tradición artesanal con la innovación para ofrecer a nuestros
+              clientes una experiencia única de deleite para el paladar. Nos enorgullece presentar una selección
+              exquisita de helados artesanales, elaborados con ingredientes frescos y de la más alta calidad.
+              <br>
+              Nuestra historia se teje con pasión por la autenticidad y la creatividad. Cada helado es una obra maestra
+              cuidadosamente elaborada por nuestro talentoso equipo de maestros heladeros, que comparten un amor por los
+              sabores originales y las combinaciones sorprendentes.
+            </p>
+            <ul>
+              <li><i class="ri-check-double-line"></i> Contamos con los mejores sabores del condado.</li>
+              <li><i class="ri-check-double-line"></i> Todos nuestros helados son 100% artesanales.</li>
+              <li><i class="ri-check-double-line"></i> Experimenta sabores innolvidables.</li>
+            </ul>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <p>
+              En Hela - Ditos, no solo creamos helados, creamos momentos especiales. Nuestro ambiente
+              acogedor invita a disfrutar de momentos dulces con amigos y familiares. Estamos comprometidos con la
+              excelencia en cada detalle, desde la elección de ingredientes frescos hasta el servicio amable y
+              personalizado.
+              <br><br>
+              Explora con nosotros un mundo de sabores que despiertan los sentidos y transportan a lugares de pura
+              delicia. Estamos emocionados de compartir nuestra pasión por los helados artesanales contigo y de
+              convertir cada visita a nuestra heladería en una experiencia memorable.
+            </p>
+            <a href="#services" class="btn-learn-more">Saber más</a>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container">
+
+        <div class="row" data-aos="zoom-out">
+          <div class="col-lg-9 text-center text-lg-start">
+            <h3>¿Quieres mas informacion de nuestros servicios?</h3>
+            <p> Revisa todos los sabores de helados que tenemos y acude a la sucursal por uno de ellos.</p>
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="#services">Ver todos los servicios</a>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Cta Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-out">
+          <h2>Servicios</h2>
+          <p>Lista de helados actualizada con existencias en sucursal</p>
+        </div>
+        <!--Carrusel de imagenes-->
+        <div class="swiper mySwiper container">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="swiper-txt">
+                <h3>Helado de Fresa</h3>
+                <p>Descripcion de prueba de helado de fresa</p>
+              </div>
+              <img src="assets/img/carrusel/fresa1.jpg" alt="helado De Fresa">
+            </div>
+
+            <div class="swiper-slide">
+              <div class="swiper-txt">
+                <h3>Helado de Chocolate</h3>
+                <p>Descripcion de prueba de helado de chocolate</p>
+              </div>
+              <img src="assets/img/carrusel/chocolate2.jpg" alt="helado De chocolate">
+            </div>
+
+            <div class="swiper-slide">
+              <div class="swiper-txt">
+                <h3>Helado de Menta</h3>
+                <p>Descripcion de prueba de helado de menta</p>
+              </div>
+              <img src="assets/img/carrusel/menta3.jpg" alt="helado De menta">
+            </div>
+
+            <div class="swiper-slide">
+              <div class="swiper-txt">
+                <h3>Helado de Oreo</h3>
+                <p>Descripcion de prueba de helado de oreo</p>
+              </div>
+              <img src="assets/img/carrusel/oreo4.jpg" alt="helado De oreo">
+            </div>
+
+            <div class="swiper-slide">
+              <div class="swiper-txt">
+                <h3>Helado de Mora</h3>
+                <p>Descripcion de prueba de helado de mora</p>
+              </div>
+              <img src="assets/img/carrusel/mora5.jpg" alt="helado De mora">
+            </div>
+
+          </div>
+        </div>
+
+    </section><!-- End Services Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-out">
+          <h2>Portafolio</h2>
+          <p>Ve un poco de lo que tenemos en nuestra sucursal</p>
+        </div>
+
+        <ul id="portfolio-flters" class="d-flex justify-content-end" data-aos="fade-up">
+          <li data-filter="*" class="filter-active">Todo</li>
+          <li data-filter=".filter-toppings">Toppings</li>
+          <li data-filter=".filter-mermeladas">Mermeladas</li>
+          <li data-filter=".filter-fruta">Fruta Fresca</li>
+        </ul>
+
+        <div class="row portfolio-container" data-aos="fade-up">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-toppings">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio1.png" class="img-fluid"
+                alt="Chispas de Yogurth"></div>
+            <div class="portfolio-info">
+              <h4>Chispas de Yogurth</h4>
+              <p>Los mejores toppings para tu helado</p>
+              <a href="assets/img/portfolio/portfolio1.png" data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" title="Topping 1"></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"> </a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-mermeladas">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio2.jpg" class="img-fluid"
+                alt="Mermelada de Fresa"></div>
+            <div class="portfolio-info">
+              <h4>Mermelada de Fresa</h4>
+              <p>Las mejores mermeladas para tu helado</p>
+              <a href="assets/img/portfolio/portfolio2.jpg" data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" title="Mermelada de fresa"></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-fruta">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio3.jpg" class="img-fluid"
+                alt="Uva Fresca"></div>
+            <div class="portfolio-info">
+              <h4>Uva picada</h4>
+              <p>Las mejores frutas para tu helado</p>
+              <a href="assets/img/portfolio/portfolio3.jpg" data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" title="Uva picada"></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-toppings">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio4.jpg" class="img-fluid"
+                alt="Galleta Oreo"></div>
+            <div class="portfolio-info">
+              <h4>Galleta Oreo</h4>
+              <p>Los mejores toppings para tu helado</p>
+              <a href="assets/img/portfolio/portfolio4.jpg" data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" title="Galleta Oreo"></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-mermeladas">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio5.jpg" class="img-fluid"
+                alt="Mermelada de Piña"></div>
+            <div class="portfolio-info">
+              <h4>Mermelada de Piña</h4>
+              <p>Las mejores mermeladas para tu helado</p>
+              <a href="assets/img/portfolio/portfolio5.jpg" data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" title="Mermelada de Piña"></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-fruta">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio6.jpg" class="img-fluid"
+                alt="Kiwi Picado"></div>
+            <div class="portfolio-info">
+              <h4>Kiwi Picado</h4>
+              <p>ELa mejor fruta fresca para tu helado</p>
+              <a href="assets/img/portfolio/portfolio6.jpg" data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" title="Kiwi Picado"></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-toppings">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio7.jpg" class="img-fluid"
+                alt="Seleccion de cereales"></div>
+            <div class="portfolio-info">
+              <h4>Selección de cereales</h4>
+              <p>Los mejores toppings para tu helado</p>
+              <a href="assets/img/portfolio/portfolio7.jpg" data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" title="Seleccion de cereales"></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-fruta">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio8.jpg" class="img-fluid" alt="Berrys">
+            </div>
+            <div class="portfolio-info">
+              <h4>Seleccion de Beryys</h4>
+              <p>La mejor fruta fresca para tus helados</p>
+              <a href="assets/img/portfolio/portfolio8.jpg" data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" title="Boda 3"></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-mermeladas">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio9.jpg" class="img-fluid"
+                alt="Mermelada de mango"></div>
+            <div class="portfolio-info">
+              <h4>Mermelada de Mango</h4>
+              <p>Las mejores mermeladas para tus helados</p>
+              <a href="assets/img/portfolio/portfolio9.jpg" data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" title="XV 1"></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-out">
+          <h2>Blog</h2>
+          <p>Conoce lo que dicen de nosotros</p>
+        </div>
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left" style="color:#00cfc8;"></i>
+                  Con una visión refrescante y un amor genuino por los helados artesanales, Annete Aguilar
+                  lidera nuestro equipo en la búsqueda constante de la excelencia. Su dedicación a la calidad, la
+                  creatividad y la experiencia del cliente define la esencia misma de nuestra heladería. ¡Acompáñanos en
+                  este viaje delicioso bajo su dirección experta!
+                  <i class="bx bxs-quote-alt-right quote-icon-right" style="color:#00cfc8;"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                <h3>Anette Aguilar</h3>
+                <h4>Gerente de Hela-Ditos</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left" style="color:#00cfc8;"></i>
+                  La heladería de Hela-Ditos es mi rincón de felicidad congelada. Cada sabor es como un
+                  viaje de sabores exquisitos, y la pasión por la calidad se nota en cada cucharada. Desde clásicos
+                  reconfortantes hasta innovadoras creaciones, siempre encuentro algo que deleita mis papilas. ¡Gracias
+                  por hacer de mis momentos dulces los mejores!
+                  <i class="bx bxs-quote-alt-right quote-icon-right" style="color:#00cfc8;"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                <h3>Susana Brito</h3>
+                <h4>Cliente nueva</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left" style="color:#00cfc8;"></i>
+                  Entrar en la heladería de Hela-Ditos es como entrar en un paraíso de sabores. Cada vez
+                  que pruebo un nuevo helado, descubro una nueva delicia. La frescura y la calidad son insuperables.
+                  ¡Gracias por hacer que cada visita sea una experiencia deliciosa e inolvidable!
+                  <i class="bx bxs-quote-alt-right quote-icon-right" style="color:#00cfc8;"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                <h3>Carlos Pablito</h3>
+                <h4>Cliente distinguido</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left" style="color:#00cfc8;"></i>
+                  Como cliente habitual de Hela-Ditos, no puedo dejar de elogiar la increíble variedad de
+                  sabores y la dedicación a la calidad. Cada helado es una obra maestra, y la atención al detalle
+                  realmente marca la diferencia. Este lugar se ha convertido en mi refugio favorito para satisfacer mi
+                  dulce antojo.
+                  <i class="bx bxs-quote-alt-right quote-icon-right" style="color:#00cfc8;"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                <h3>Tadeo Rodriguez</h3>
+                <h4>Cliente Frecuentes</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left" style="color:#00cfc8;"></i>
+                  Cada visita a Hela-Ditos es una aventura sensorial. Desde los clásicos que nunca fallan
+                  hasta las creaciones más audaces, siempre encuentro algo que me sorprende. La pasión por los helados
+                  de calidad es evidente en cada rincón de este lugar encantador. ¡Gracias por hacer que mis días sean
+                  más dulces!
+                  <i class="bx bxs-quote-alt-right quote-icon-right" style="color:#00cfc8;"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                <h3>John Larson</h3>
+                <h4>Cliente VIP</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+  
+    <!-- ======= Cta2 Section ======= -->
+    <section id="" class="cta">
+      <div class="container">
+
+        <div class="row" data-aos="zoom-out">
+          <div class="col-lg-9 text-center text-lg-start">
+            <h3>¿Te gusta alguno de nuestros productos?</h3>
+            <p> Contactanos y ubica la sucursal para poder brindarte atención personalizada</p>
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="contrataciones.html">Contatar</a>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Cta Section -->
+
+    <!-- ========Comprobante section ========== -->
+    <section id="comprobante" class="comprobante">
+      <div class="container">
+        <div class="section-title" data-aos="zoom-out">
+          <h2>Contáctanos</h2>
+          <p>Ubica la cercania de nuestra sucursal  </p>
+        </div>
+        <div class="row datosContratacion">
+          <div class="col-md-6">
+            <form action="confirmation.php" method="POST" autocomplete="off" class="row justify-content-center" id="formContratacion">
+              <fieldset class="DatoContratacion">
+                  <legend>Contacto: </legend>
+                  <label for="Nombre">Nombre: </label>
+                  <input type="text" name="Nombre" id="Nombre" class="form-control" required>
+                  <br>
+                  <label for="Correo">Correo: </label>
+                  <input type="email" name="Correo" id="Correo" class="form-control" required>
+                  <br>
+                  <label for="Mensaje">Mensaje: </label>
+                  <textarea placeholder="Mensaje" name="Mensaje" id="Mensaje" cols="20" rows="8" class="form-control"></textarea>
+                  <br>
+              </fieldset>
+          </div>
+          <div class="col-md-6 contact-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3899.4008313331396!2d-76.94085974995006!3d-12.22111659130892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105bbdca2f3ee8b%3A0x2b7fffb4f202a9b0!2sAv.%203%20de%20Octubre%2C%20Villa%20EL%20Salvador!5e0!3m2!1ses-419!2spe!4v1607935532346!5m2!1ses-419!2spe" width="100%" height="95%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center align-items-center enviarForm">
+          <input type="submit" value="Enviar Datos" class="botonEnvio" id="submitButton">
+          <input type="reset" value="Limpiar Formulario" class="botonEnvio">
+        </form>
+      </div>
+      </div>
+    </section>
+
+    <!-- End Comprobante Section -->
 
 
-	<section class="informacion" id="inicio">
-	<h1>Nuestros Sabores</h1><br>
-
-	<div class="carousel">
-		<a href="#one" class="carousel-item"><img src="img/fresa1.jpg" alt=""></a>
-		<a href="#two" class="carousel-item"><img src="img/chocolate2.jpg" alt=""></a>
-		<a href="#three" class="carousel-item"><img src="img/menta3.jpg" alt=""></a>
-		<a href="#four" class="carousel-item"><img src="img/oreo4.jpg" alt=""></a>
-		<a href="#five" class="carousel-item"><img src="img/mora5.jpg" alt=""></a>
-	</div>
-
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
-		
-	</script>
-	<script>
-		 
-		 $(document).ready(function(){
-		 	$('.carousel').carousel({
-		 		indicators:true
-		 	});
-		 	setInterval(function(){
-		 		$('.carousel').carousel('next');
-		 	}, 2000);
-		 });
-
-	</script>
-	</section>
+    <!--NOTA DE RODRIGO: ESTA PARTE SE LAS ESTOY DEJANDO PARA QUE SE GUIEN CON LOS FORMULARIOS PERO SE VA A BORRAR-->
 
 
-	<span class="ir-arriba icon-arrow-up"></span>
+  </main><!-- End #main -->
 
-	<section class="informacion" id="sobrenosotros">
-		
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <h3>Hela-Ditos</h3>
+      <p>¡Donde Cada Bocado es un Festival de Frescura y Sabor!</p>
+      <div class="social-links">
+        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+      </div>
+      <div class="copyright">
+        &copy; Copyright <strong><span>Hela-Ditos</span></strong>. Todos los derechos reservados
+      </div>
+      <div class="credits">
+        Diseñado con <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
 
-		<div class="about">
-		<div class="container">
-			<div class="row">
-				<div class="header-text text-center">
-					<h2>Nosotros</h2><br>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-5">
-					<div class="area"></div>	
-				</div>
-				<div class="col-md-7">
-					<div class="img-text">
-						<h2>Anette Aguilar </h2>
-						<h4>Gerenta del Local</h4>
-						<p>Vamos de un lado a otro buscando, viajamos y experimentamos para encontrar sabores. La Heladería está formada por un grupo de jóvenes emprendedores con la idea de hacer los mejores helados de Peruanos y llevar esta experiencia gastronómica a los parques, plazas, bazares mesas de los mejores restaurantes y también a las las casas de la gente que aprecia lo bien hecho, y que, como nosotros, va buscando sabores y experiencias.</p>
-						<a href="#contacto">Contáctanos</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
-	</section>
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
 
-	<section class="informacion" id="servicios">
-
-		<div class="container">
-		<h1>Nuestros Servicios</h1><br>
-		<div class="row">
-			<div class="col-md-4 col-sm-6">
-				<div class="single-team">
-					<div class="team-img one">
-						<div class="img-area"></div>
-					</div>
-					<div class="team-text">
-						<h2>Toppings</h2>
-						<h4>Variedad</h4>
-						<p>Se hace de productos lácteos tales como leche o crema, a menudo en combinación con frutas u otros ingredientes y sabores.</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 col-sm-6">
-				<div class="single-team">
-					<div class="team-img two">
-						<div class="img-area"></div>
-					</div>
-					<div class="team-text">
-						<h2>Sorpresas</h2>
-						<h4>Artesanales</h4>
-						<p>	Para variar los gustos tambien hay lugar</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 col-sm-6">
-				<div class="single-team">
-					<div class="team-img three">
-						<div class="img-area"></div>
-					</div>
-					<div class="team-text">
-						<h2>Presentaciones</h2>
-						<h4>Cono/Vaso</h4>
-						<p>No hay pretextos para elegir en que llevar tu helado !!! </p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	</section>
-
-	<section class="informacion" id="blog">
-	<h1>Mira Nuestro Blog</h1><br>
-
-		<div class="team-area">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-4">
-					<div class="card text-center">
-						<img src="img/2.jpg" alt="" class="card-img">
-						<div class="card-body">
-							<h4 class="card-title">Anette y Karla</h4>
-							<p class="socials">
-								<i class="fa fa-pinterest"></i>
-								<i class="fa fa-dribbble"></i>
-								<i class="fa fa-youtube"></i>
-								<i class="fa fa-tumblr"></i>
-							</p>
-							<p class="text">
-								Nos interesa el origen de los ingredientes que usamos: la vainilla de Papantla, el cacao de Tabasco y los mangos de Veracruz.
-							</p>
-							<button class="button">Comentario</button>
-						</div>
-					</div>
-				</div>
-					<div class="col-md-4">
-					<div class="card text-center">
-						<img src="img/3.jpg" alt="" class="card-img">
-						<div class="card-body">
-							<h4 class="card-title">Jese Torres</h4>
-							<p class="socials">
-								<i class="fa fa-pinterest"></i>
-								<i class="fa fa-dribbble"></i>
-								<i class="fa fa-youtube"></i>
-								<i class="fa fa-tumblr"></i>
-							</p>
-							<p class="text">
-								Nuestros helados buscan ser un deleite a la vista, al olfato, al tacto y al gusto. Pero también es importante la historia que hay detrás.
-							</p>
-							<button class="button">Comentario</button>
-						</div>
-					</div>
-				</div>
-					<div class="col-md-4">
-					<div class="card text-center">
-						<img src="img/1.jpg" alt="" class="card-img">
-						<div class="card-body">
-							<h4 class="card-title">Mauricio Alejandro</h4>
-							<p class="socials">
-								<i class="fa fa-pinterest"></i>
-								<i class="fa fa-dribbble"></i>
-								<i class="fa fa-youtube"></i>
-								<i class="fa fa-tumblr"></i>
-							</p>
-							<p class="text">
-								En "Heladitos" Heladería nos proveemos con productores con los que compartimos una visión de la calidad. 
-							</p>
-							<button class="button">Comentario</button>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	</section>
-
-	<section class="informacion" id="sitio">
-
-		<div class="box">
-		<div class="single-box">
-			<i class="fa fa-facebook"></i>
-		</div>
-		<div class="single-box">
-			<i class="fa fa-twitter"></i>
-		</div>
-		<div class="single-box">
-			<i class="fa fa-youtube"></i>
-		</div>
-		<div class="single-box">
-			<i class="fa fa-pinterest"></i>
-		</div>
-
-	</div>
-
-	</section>
-
-	<section class="informacion" id="contacto">
-		<div class="contact-in">
-		<div class="contact-map">
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3899.4008313331396!2d-76.94085974995006!3d-12.22111659130892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105bbdca2f3ee8b%3A0x2b7fffb4f202a9b0!2sAv.%203%20de%20Octubre%2C%20Villa%20EL%20Salvador!5e0!3m2!1ses-419!2spe!4v1607935532346!5m2!1ses-419!2spe" width="100%" height="auto" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-		</div>
-		<div class="contact-form">
-			<h1>Contáctanos</h1>
-			<form>
-				<input type="text" placeholder="Nombre" class="contact-form-txt"/>
-				<input type="text" placeholder="Correo" class="contact-form-txt"/>
-				<textarea placeholder="Mensaje" class="contact-form-textarea"></textarea>
-				<input type="submit" name="Submit"/>
-			</form>
-		</div>
-	</div>
-	</section>
-
-	<div>
-		<h1></h1>
-	</div>
-	
-
-	<div id="pie">
-				Equipo 8 HELADERIA 
-			</div>
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 
 </body>
+
 </html>
